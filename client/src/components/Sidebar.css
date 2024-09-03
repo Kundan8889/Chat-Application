@@ -1,0 +1,33 @@
+/* For screens wider than 768px (tablets and desktops) */
+@media (min-width: 768px) {
+    .sidebar {
+        width: 300px; /* Example width for larger screens */
+    }
+}
+
+/* For screens narrower than 768px (mobile devices) */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%; /* Full width on mobile */
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .avatar-button, .logout-button {
+        width: 48px;
+        height: 48px;
+    }
+
+    .chat-button, .add-friend-button {
+        width: 48px;
+        height: 48px;
+    }
+}

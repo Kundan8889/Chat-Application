@@ -1,0 +1,24 @@
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .message-content {
+    padding: 0.5rem 0;
+  }
+
+  .footer {
+    padding: 0 0.5rem;
+  }
+
+  .upload-options {
+    bottom: 2rem;
+    right: 0.5rem;
+  }
+
+  .upload-menu {
+    bottom: 1rem;
+  }
+}
