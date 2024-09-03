@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1244348f-d045-43e9-aa7d-2ee2cf46baf2)# Chat-Application
+# Chat-Application
 
 ## Project Overview
 
@@ -26,6 +26,7 @@ Watch the project demo here: [Project Demo Video](https://youtu.be/SK4CUKHNFOQ?s
 ![Screenshot 2024-09-04 015851](https://github.com/user-attachments/assets/50f6c1b7-66c9-493d-94e7-d0bdcdc988f6)
 
 ![Screenshot 2024-09-04 015911](https://github.com/user-attachments/assets/fdcef218-e910-4495-8947-b34228f79df4)
+![image](https://github.com/user-attachments/assets/1244348f-d045-43e9-aa7d-2ee2cf46baf2)
 
 
 ![Screenshot 2024-09-04 020118](https://github.com/user-attachments/assets/2fe86dcd-56aa-49b0-85b9-08f24634224d)
