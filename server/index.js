@@ -15,6 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 const PORT = process.env.PORT || 8080;
+console.log("MONGO URI =", process.env.MONGODB_URI);
 
 app.get('/', (request, response) => {
     response.json({
