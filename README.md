@@ -1,17 +1,113 @@
-# Chat-Application
+🚀 Chat-Application (MERN Stack)
+🔗 Live Deployment
 
-## Project Overview
+Frontend (Vercel):
+👉 https://chat-application-one-swart.vercel.app
 
-Brief description of your Chat-Application project.
+Backend (Render):
+👉 https://chat-application-dyie.onrender.com
 
-## Demo
+Demo Video:
+👉 https://youtu.be/SK4CUKHNFOQ?si=QlG1zVUt512BcFBg
 
-Watch the project demo here: [Project Demo Video](https://youtu.be/SK4CUKHNFOQ?si=QlG1zVUt512BcFBg)
+🧠 Project Overview
 
-# Chat-Application
+A full-stack real-time chat application built using the MERN stack with Socket.IO for instant messaging.
+The application supports authentication, real-time messaging, image & video sharing, and is fully deployed to production.
 
-## Features
+This project focuses not only on features, but also on real-world deployment, environment configuration, and production debugging.
 
+✨ Features
+
+User Registration & Login (JWT Authentication)
+
+Real-time Chat using Socket.IO
+
+One-to-One Messaging
+
+Image Upload (Cloudinary)
+
+Video Upload (Cloudinary)
+
+User Profile Update
+
+Responsive UI
+
+Secure CORS configuration
+
+Production-ready deployment
+
+🛠️ Tech Stack
+Frontend
+
+React (Create React App)
+
+Tailwind CSS
+
+Axios
+
+Socket.IO Client
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+Socket.IO
+
+JWT Authentication
+
+Media Storage
+
+Cloudinary (Images & Videos)
+
+Deployment
+
+Frontend: Vercel
+
+Backend: Render
+
+Database: MongoDB Atlas
+
+🌍 Deployment Architecture
+Frontend (Vercel)
+        |
+        |  HTTPS + CORS
+        |
+Backend (Render)
+        |
+        |
+MongoDB Atlas
+
+
+Environment variables managed separately on Vercel and Render
+
+Secure CORS handling for production domains
+
+Socket.IO configured for cloud deployment
+
+Cloudinary integrated using unsigned upload presets
+
+⚠️ Real-World Problems Solved
+
+During deployment, the following production issues were handled:
+
+❌ CORS errors between Vercel & Render
+
+❌ MongoDB Atlas IP Whitelisting issues
+
+❌ Socket.IO connection failures on cloud
+
+❌ Cloudinary image & video upload authorization issues
+
+❌ Environment variable mismatch between local & production
+
+✔️ All issues were debugged and resolved in production.
+
+📸 Screenshots
 ### Registration
 ![Screenshot 2024-09-04 015725](https://github.com/user-attachments/assets/f7ad07b6-9904-457d-a658-90c7d47c0117)
 ### Login
